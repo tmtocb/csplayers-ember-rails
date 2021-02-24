@@ -2,5 +2,6 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
   nick: DS.attr('string'),
-  earnings: DS.attr('number')
+  earnings: DS.attr('number'),
+  active: DS.attr('boolean')
 })
