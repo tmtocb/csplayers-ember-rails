@@ -1,3 +1,3 @@
 class PlayerResource < JSONAPI::Resource
-  attributes :nick, :earnings
+  attributes :nick, :earnings, :active
 end

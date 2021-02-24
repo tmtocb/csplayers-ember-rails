@@ -4,5 +4,6 @@ RSpec.describe Player, type: :model do
   describe '#columns' do
     it { should have_db_column(:nick) }
     it { should have_db_column(:earnings) }
+    it { should have_db_column(:active) }
   end
 end
