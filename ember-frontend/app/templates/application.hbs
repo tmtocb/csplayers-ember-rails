@@ -1,3 +1,15 @@
+<h1>Add Player</h1>
+
+<div>
+  nick:
+  {{input value=nick}}
+</div>
+<div>
+  earnings:
+  {{input value=earnings}}
+</div>
+<button {{action "addPlayer"}}>Add</button>
+
 <h1>Players</h1>
 <div class="players-index-list">
   {{#each model as |player|}}
