@@ -7,3 +7,7 @@
   border: 1px solid black;
   font-size: 30px;
 }
+
+.player.dark {
+  background-color: #AAD;
+}

@@ -1,8 +1,9 @@
 <h1>Players</h1>
 <div class="players-index-list">
   {{#each model as |player|}}
-    <div class="player">
+    <div class="player {{if player.active 'dark'}}">
       $ {{player.earnings}} for  {{player.nick}}
+      <br>
     </div>
   {{/each}}
 </div>
