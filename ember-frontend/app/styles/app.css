@@ -1,0 +1,9 @@
+.players-index-list .player {
+  width: 500px;
+  background-color: #5dc914;
+  margin: 3px;
+  padding: 3px;
+  vertical-align: middle;
+  border: 1px solid black;
+  font-size: 30px;
+}
