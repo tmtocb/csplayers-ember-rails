@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :players, only: [:index]
+  jsonapi_resources :players, only: %w[index]
 end
