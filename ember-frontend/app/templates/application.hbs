@@ -1,8 +1,8 @@
-<h1>Our first page</h1>
-<p>Hi there</p>
-
-<ul>
+<h1>Players</h1>
+<div class="players-index-list">
   {{#each model as |player|}}
-    <li>{{player.nick}} has earned {{player.earnings}}$.</li>
+    <div class="player">
+      $ {{player.earnings}} for  {{player.nick}}
+    </div>
   {{/each}}
-</ul>
+</div>
