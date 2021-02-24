@@ -4,6 +4,7 @@
     <div class="player {{if player.active 'dark'}}">
       $ {{player.earnings}} for  {{player.nick}}
       <br>
+      <button {{action 'toggleActive' player}}>Toggle Active</button>
     </div>
   {{/each}}
 </div>
